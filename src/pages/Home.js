@@ -2,7 +2,6 @@ import React from 'react'
 import Navigation from '../components/Navigation'
 import SocialNetwork from '../components/SocialNetwork'
 import ButtonsBottom from '../components/ButtonsBottom'
-import DynamicText from '../components/DynamicText'
 import Mouse from '../components/Mouse'
 import { motion } from 'framer-motion'
 import Logo from '../components/Logo'
@@ -62,9 +61,7 @@ const Home = () => {
                 top: -200,
                 bottom: 250,
               }}
-            >
-              <DynamicText />
-            </motion.h2>
+            ></motion.h2>
           </div>
         </div>
         <ButtonsBottom right={'/projet-1'} />
